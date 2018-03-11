@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse" id="changlang">
+<nav class="navbar navbar-default" id="changlang">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebSiteName</a>
@@ -11,7 +11,22 @@
     <button class="btn btn-danger navbar-btn">Button</button>
   </div>
 </nav>
+
+<nav class="navbar navbar-default" id="changlang2" style="display:none">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">nombre</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">casa</a></li>
+      <li><a href="#">sobre</a></li>
+      <li><a href="#">cartera</a></li>
+    </ul>
+    <button class="btn btn-danger navbar-btn">buton</button>
+  </div>
+</nav>
+
 <form>
-  <input type="radio" name="language" value="espanol" onclick="document.getElementById('changlang').style.display='none'">espanol<br>
+  <input type="radio" name="language" value="espanol" onclick="document.getElementById('changlang').style.display='none';document.getElementById('changlang2').style.display='block'">espanol<br>
   
   </form>
