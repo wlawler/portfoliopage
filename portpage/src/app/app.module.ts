@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContactmeComponent } from './contactme/contactme.component';
+import { PiclinkComponent } from './piclink/piclink.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ContactmeComponent } from './contactme/contactme.component';
     AppComponent,
     AppNavbarComponent,
     NavBarComponent,
-    ContactmeComponent
+    ContactmeComponent,
+    PiclinkComponent
   ],
   imports: [
     BrowserModule
