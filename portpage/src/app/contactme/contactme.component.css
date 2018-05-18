@@ -1,0 +1,35 @@
+.contact {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #F1F2F0;
+    color: black;
+  }
+.marquee{
+    font-size: 36px;
+}
+
+.social-icon{
+    color: black;
+    padding: 30px;
+  }
+  
+  .fa-twitter:hover {
+    color: #0084b4;
+  }
+  
+  .fa-github:hover {
+    color: #313335;
+  }
+  
+  .fa-linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .fa-fire:hover{
+    color:gray;
+  }
+  
+  .fa-envelope:hover {
+    color: #ea4335;
+  }
