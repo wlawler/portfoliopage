@@ -5,9 +5,12 @@
     background-color: #F1F2F0;
     color: black;
   }
-.marquee{
+#marquee{
+    font-family: 'indie flower', cursive;
     font-size: 36px;
 }
+
+
 
 .social-icon{
     color: black;
