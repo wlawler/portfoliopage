@@ -1,0 +1,14 @@
+.circle-image1{
+    width:100px;
+    border-width:10px;
+    border-color:white;
+    border-style:solid;
+    border-radius:50%;
+
+}
+
+.mybio{
+    font-family: 'Kalam',cursive;
+    font-size: 20px;
+    font-style: bold;
+}

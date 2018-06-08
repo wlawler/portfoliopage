@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContactmeComponent } from './contactme/contactme.component';
 import { PiclinkComponent } from './piclink/piclink.component';
 import { NestTrackerComponent } from './nest-tracker/nest-tracker.component';
+import { MybioComponent } from './mybio/mybio.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NestTrackerComponent } from './nest-tracker/nest-tracker.component';
     NavBarComponent,
     ContactmeComponent,
     PiclinkComponent,
-    NestTrackerComponent
+    NestTrackerComponent,
+    MybioComponent
   ],
   imports: [
     BrowserModule
