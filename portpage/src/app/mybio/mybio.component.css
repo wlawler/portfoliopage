@@ -1,9 +1,9 @@
 .circle-image1{
-    width:100px;
+    width: 300px;
     border-width:10px;
     border-color:white;
     border-style:solid;
-    border-radius:50%;
+    border-radius: 55%;
 
 }
 
@@ -11,4 +11,5 @@
     font-family: 'Kalam',cursive;
     font-size: 20px;
     font-style: bold;
+    line-height: 200%;
 }
