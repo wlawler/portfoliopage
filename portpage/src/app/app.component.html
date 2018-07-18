@@ -3,12 +3,26 @@
 <div class="container-fluid">
   <div class="navbar-header">
     <a class="navbar-brand" href="#">Wes Lawler</a>
+    <ul class="nav navbar-nav navbar-default">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">language
+          <span class="caret"></span> </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">english</a></li>
+            <li><a href="#">spanish</a></li>
+          </ul>
+      </li>
+    </ul>
   </div>
   <ul class="nav navbar-nav navbar-right">
+    <div class="nav navbar-nav navbar-right">
     <li class="active"><a href="#"> Home</a></li>
     <li><a href="#"> About</a></li>
     <li><a href="#">Portfolio</a></li>
+    </div>
+    
   </ul>
+  <!--
   <button type="button" class="btn btn-primary">language</button>
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
       <span class="caret"></span>
@@ -16,6 +30,7 @@
     <ul class="dropdown-menu" role="menu">
       <input type="radio" name="language" value="espanol" onclick="document.getElementById('changlang').style.display='none';document.getElementById('changlang2').style.display='block'">espanol<br>
     </ul>
+  -->
 </div>
 </nav>
 
