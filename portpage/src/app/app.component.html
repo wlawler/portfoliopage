@@ -3,14 +3,20 @@
 <div class="container-fluid">
   <div class="navbar-header">
     <a class="navbar-brand" href="#">Wes Lawler</a>
-    <ul class="nav navbar-nav navbar-default">
+     <ul class="nav navbar-nav navbar-default">
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">language
-          <span class="caret"></span> </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">english</a></li>
+        <button type="button" class="navbar-toggle collapsed"
+              (click)="toggleState()">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="caret"></span>
+              language
+           </button>
+          <div class="collapse navbar-collapse" [ngClass]= "{'in': isIn}">
+            <ul>
+            <li><a href="#">gish</a></li>
             <li><a href="#">spanish</a></li>
           </ul>
+          </div>
       </li>
     </ul>
   </div>
@@ -53,11 +59,12 @@
   <button class="btn btn-danger navbar-btn">button</button>
 </div>
 </nav>
-
+<!--
 <form>
-<input type="radio" name="language" value="espanol" onclick="document.getElementById('changlang').style.display='none';document.getElementById('changlang2').style.display='block'">espanol<br>
-<input type="radio" name="language" value="english" onclick="document.getElementById('changlang').style.display='block';document.getElementById('changlang2').style.display='none'">english<br>
+<input type="radio" name="language" value="espanol" onclick="document.getElementById('changlang').style.display='none';document.getElementById('changlang2').style.display='block'">espaol<br>
+<input type="radio" name="language" value="eng" onclick="document.getElementById('changlang').style.display='block';document.getElementById('changlang2').style.display='none'">english<br>
 </form> 
+-->
 <!--<script>
 window.alert(my portfolio page);
 </script> -->
